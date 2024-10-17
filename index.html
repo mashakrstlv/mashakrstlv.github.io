@@ -11,73 +11,61 @@
       <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
    </head>
    </head>
-   <body class="transition-all">
-      <section class="hero">
-         <div class="max-w-md mx-auto bg-white overflow-hidden md:max-w-xl">
-            <div class="md:flex">
-               <div class="p-8 text-center">
-                  <img class="inline-block w-10 h-10 mb-2 p-1 rounded-full" src="img/avatar.png" alt="avatar">
-                  <div class="mb-8">
-                     <h1 class="mb-1 text-2xl font-medium tracking-tight">Masha Koro</h1>
-                     <p class="text-sm text-neutral-700">Graphic Designer Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates ullam ipsum sapiente? Non, omnis unde sint, nobis, amet velit, eos corrupti voluptate dolorem quod alias magni possimus distinctio esse.</p>
-                  </div>
-                  <!-- <p class="mb-8 text-sm text-neutral-700">Currently in Voronezh, Russia</p> -->
-                  <div class="">
-                     <a type="button" class="text-white bg-neutral-900 hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2" href="#" target=”_blank”>
-                     <img class="inline-block" src="icn/linkedin.svg" alt="">
-                     <span class="sr-only">Linkedin icon</span>
-                     </a>
-                     <a type="button" class="text-white bg-neutral-900 hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2" href="#" target=”_blank”>
-                     <img class="inline-block" src="icn/behance.svg" alt="">
-                     <span class="sr-only">Behance icon</span>
-                     </a>
-                     <a type="button" class="text-white bg-neutral-900 hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2" href="#" target=”_blank”>
-                     <img class="inline-block" src="icn/dribbble.svg" alt="">
-                     <span class="sr-only">Dribbble icon</span>
-                     </a>
-                     <a type="button" class="text-white bg-neutral-900 hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2" href="#" target=”_blank”>
-                     <img class="inline-block" src="icn/instagram.svg" alt="">
-                     <span class="sr-only">Iribbble icon</span>
-                     </a>
-                     <a type="button" class="text-white bg-neutral-900 hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2" href="#" target=”_blank”>
-                     <img class="inline-block" src="icn/twitter.svg" alt="">
-                     <span class="sr-only">Twitter icon</span>
-                     </a>
-                  </div>
-                  <!-- social ends -->
-               </div>
-            </div>
-            <!-- md flex ends -->
+   <body>
+      <section class="flex flex-col p-4 items-center">
+         <img class="w-12 mb-4 shadow" src="img/avatar.png" alt="avatar">
+         <h1 class="mb-0.5 text-2xl font-medium tracking-tighter text-neutral-900">Masha Korosteleva</h1>
+         <h2 class="mb-6 text-xs font-light tracking-widest text-neutral-500 uppercase">Graphic Designer</h2>
+         <div class="mb-4">
+            <a type="button" class="tp-1 text-center inline-flex items-center me-1.5" href="#" target=”_blank”>
+            <img class="inline-block" src="icn/linkedin.svg" alt="">
+            <span class="sr-only">Linkedin icon</span>
+            </a>
+            <a type="button" class="tp-1 text-center inline-flex items-center me-1.5" href="#" target=”_blank”>
+            <img class="inline-block" src="icn/behance.svg" alt="">
+            <span class="sr-only">Behance icon</span>
+            </a>
+            <a type="button" class="tp-1 text-center inline-flex items-center me-1.5" href="#" target=”_blank”>
+            <img class="inline-block" src="icn/dribbble.svg" alt="">
+            <span class="sr-only">Dribbble icon</span>
+            </a>
+            <a type="button" class="tp-1 text-center inline-flex items-center me-1.5" href="#" target=”_blank”>
+            <img class="inline-block" src="icn/instagram.svg" alt="">
+            <span class="sr-only">Instagram icon</span>
+            </a>
+            <a type="button" class="tp-1 text-center inline-flex items-center me-1.5" href="#" target=”_blank”>
+            <img class="inline-block" src="icn/twitter.svg" alt="">
+            <span class="sr-only">Twitter icon</span>
+            </a>
          </div>
-         <!-- hero container ends -->
       </section>
-      <!-- hero section ends -->
-      <section class="">
+      
+      <section class="projects mb-12">
          <div class="container max-w-md mx-auto overflow-hidden md:max-w-[1200px] p-2">
-            <div class="mb-4">
+            <div class="mb-8">
                <ul class="flex flex-wrap justify-center -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
                   <li class="me-2" role="presentation">
                      <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="all-projects-tab" data-tabs-target="#all-projects" type="button" role="tab" aria-controls="all-projects" aria-selected="false">All projects</button>
                   </li>
                   <!-- Logo & Branding -->
                   <li class="me-2" role="presentation">
-                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="logo-and-branding-tab" data-tabs-target="#logo-and-branding" type="button" role="tab" aria-controls="logo-and-branding" aria-selected="false">Logo & Branding</button>
+                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-400 focus:bg-neutral-100" id="logo-and-branding-tab" data-tabs-target="#logo-and-branding" type="button" role="tab" aria-controls="logo-and-branding" aria-selected="false">Logo & Branding</button>
                   </li>
                   <!-- UI & Iconography -->
                   <li class="me-2" role="presentation">
-                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="ui-and-iconography-tab" data-tabs-target="#ui-and-iconography" type="button" role="tab" aria-controls="ui-and-iconography" aria-selected="false">UI & Iconography</button>
+                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-400 focus:bg-neutral-100" id="ui-and-iconography-tab" data-tabs-target="#ui-and-iconography" type="button" role="tab" aria-controls="ui-and-iconography" aria-selected="false">UI & Iconography</button>
                   </li>
                   <!-- Packaging -->
                   <li class="me-2" role="presentation">
-                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="packaging-tab" data-tabs-target="#packaging" type="button" role="tab" aria-controls="packaging" aria-selected="false">Packaging</button>
+                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-400 focus:bg-neutral-100" id="packaging-tab" data-tabs-target="#packaging" type="button" role="tab" aria-controls="packaging" aria-selected="false">Packaging</button>
                   </li>
                   <!-- Print & Editorial -->
                   <li class="me-2" role="presentation">
-                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="print-and-editorial-tab" data-tabs-target="#print-and-editorial" type="button" role="tab" aria-controls="print-and-editorial" aria-selected="false">Print & Editorial</button>
+                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-400 focus:bg-neutral-100" id="print-and-editorial-tab" data-tabs-target="#print-and-editorial" type="button" role="tab" aria-controls="print-and-editorial" aria-selected="false">Print & Editorial</button>
                   </li>
                   <!-- Social Media & Digital -->
                   <li class="me-2" role="presentation">
-                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="social-media-and-digital-tab" data-tabs-target="#social-media-and-digital" type="button" role="tab" aria-controls="social-media-and-digital" aria-selected="false">Social Media & Digital</button>
+                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-400 focus:bg-neutral-100" id="social-media-and-digital-tab" data-tabs-target="#social-media-and-digital" type="button" role="tab" aria-controls="social-media-and-digital" aria-selected="false">Social Media & Digital</button>
                   </li>
                </ul>
             </div>
@@ -146,11 +134,10 @@
                      </a>
                   </div>
                </div>
-              
             </div>
          </div>
       </section>
-      <footer class="mt-10 p-2 text-center text-xs text-neutral-900">All Rights Reserved</footer>
+      
       <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
    </body>
 </html>
