@@ -19,9 +19,9 @@
                   <img class="inline-block w-10 h-10 mb-2 p-1 rounded-full" src="img/avatar.png" alt="avatar">
                   <div class="mb-8">
                      <h1 class="mb-1 text-2xl font-medium tracking-tight">Masha Koro</h1>
-                     <p class="text-sm text-neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates ullam ipsum sapiente? Non, omnis unde sint, nobis, amet velit, eos corrupti voluptate dolorem quod alias magni possimus distinctio esse.</p>
+                     <p class="text-sm text-neutral-700">Graphic Designer Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates ullam ipsum sapiente? Non, omnis unde sint, nobis, amet velit, eos corrupti voluptate dolorem quod alias magni possimus distinctio esse.</p>
                   </div>
-                  <p class="mb-8 text-sm text-neutral-700">Currently in Voronezh, Russia</p>
+                  <!-- <p class="mb-8 text-sm text-neutral-700">Currently in Voronezh, Russia</p> -->
                   <div class="">
                      <a type="button" class="text-white bg-neutral-900 hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2" href="#" target=”_blank”>
                      <img class="inline-block" src="icn/linkedin.svg" alt="">
@@ -53,15 +53,19 @@
       </section>
       <!-- hero section ends -->
       <section class="">
-         <div class="container max-w-md mx-auto overflow-hidden md:max-w-[1200px]">
+         <div class="container max-w-md mx-auto overflow-hidden md:max-w-[1200px] p-2">
             <div class="mb-4">
-               <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
+               <ul class="flex flex-wrap justify-center -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
                   <li class="me-2" role="presentation">
                      <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="all-projects-tab" data-tabs-target="#all-projects" type="button" role="tab" aria-controls="all-projects" aria-selected="false">All projects</button>
                   </li>
                   <!-- Logo & Branding -->
                   <li class="me-2" role="presentation">
                      <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="logo-and-branding-tab" data-tabs-target="#logo-and-branding" type="button" role="tab" aria-controls="logo-and-branding" aria-selected="false">Logo & Branding</button>
+                  </li>
+                  <!-- UI & Iconography -->
+                  <li class="me-2" role="presentation">
+                     <button class="inline-block px-3 py-2 rounded-full !text-neutral-900 focus:bg-neutral-100" id="ui-and-iconography-tab" data-tabs-target="#ui-and-iconography" type="button" role="tab" aria-controls="ui-and-iconography" aria-selected="false">UI & Iconography</button>
                   </li>
                   <!-- Packaging -->
                   <li class="me-2" role="presentation">
@@ -89,6 +93,16 @@
                </div>
                <!-- Logo & Branding -->
                <div class="hidden" id="logo-and-branding" role="tabpanel" aria-labelledby="logo-and-branding-tab">
+                  <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6">
+                     <a href="#" target="_blank">
+                        <img class="h-auto max-w-full" src="img/thumbnail.jpg" alt="">
+                        <h2 class="mt-1 text-sm font-semibold">Josefine</h2>
+                        <p class="text-xs text-neutral-700">Logo & Brand Identity, 2024</p>
+                     </a>
+                  </div>
+               </div>
+               <!-- UI & Iconigraphy -->
+               <div class="hidden" id="ui-and-iconography" role="tabpanel" aria-labelledby="ui-and-iconography-tab">
                   <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6">
                      <a href="#" target="_blank">
                         <img class="h-auto max-w-full" src="img/thumbnail.jpg" alt="">
